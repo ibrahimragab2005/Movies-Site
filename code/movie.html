@@ -1,573 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Movies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Movies & Shows</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../code/movies.css">
+      <link rel="stylesheet" href="../code/style.css">
+      
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<link rel="stylesheet" href="../code/style.css">
-<link rel="stylesheet" href="../code/movies.css">
-<!-- <link rel="stylesheet" href="../code/movies&showes.css"> -->
+     
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
 
 <body>
+   
 
+<nav class="site-navbar">
 
-<nav class="navbar navbar-expand-lg navbar-dark px-4 py-3">
-  <div class="container">
+    <div class="nav-inner">
 
-    <a class="navbar-brand" href="#">
-      <img src="../images/Logo.png" class="logo">
-    </a>
+        <a href="#" class="brand">
+            <img src="../images/Logo.png" alt="StreamVibe">
+        </a>
 
-    <div class="collapse navbar-collapse justify-content-center">
-      <ul class="navbar-nav nav-box">
-        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link active"">Movies & Shows</a></li>
-        <li class="nav-item"><a class="nav-link" href="../code/support.html">Support</a></li>
-        <li class="nav-item"><a class="nav-link" href="../code/subscription.html">Subscriptions</a></li>
-      </ul>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../code/movie.html">Movies & Shows</a></li>
+            <li><a href="../code/support.html">Support</a></li>
+            <li><a href="../code/sub.html">Subscriptions</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <i class="bi bi-search"></i>
+            <i class="bi bi-bell"></i>
+        </div>
+
     </div>
 
-    <div class="icons">
-      <i class="bi bi-search"></i>
-      <i class="bi bi-bell"></i>
-    </div>
-
-  </div>
 </nav>
 
 
+
 <section class="hero">
-    <img src="../images/db21254b02aad8dff901b2ed9af793040b85b0dd.png" class="hero-img">
-
-    <div class="overlay"></div>
-
+    <img src="../images2/hero.png" alt="movies">
     <div class="hero-content">
-        <h1>Avengers : Endgame</h1>
-
-        <p>
-            With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions...
-        </p>
-
-        <div class="hero-buttons">
-            <button class="btn btn-danger play-btn">
-                <i class="bi bi-play-fill"></i> Play Now
-            </button>
-
-            <button class="icon-btn"><i class="bi bi-plus"></i></button>
-            <button class="icon-btn"><i class="bi bi-hand-thumbs-up"></i></button>
-            <button class="icon-btn"><i class="bi bi-volume-up"></i></button>
-        </div>
-    </div> 
-
-    <div class="slider-controls">
-        <button class="arrow prev">&#10094;</button>
-
-        <div class="indicators">
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <button class="arrow next">&#10095;</button>
     </div>
-
 </section>
+    <main class="container"><span class="tag">Movies</span>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>Our Genres</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g5">
+                
+                    <a href="../code/movies&showes.html" class="card">
 
-<section>
-    <div>
-    <span class="badge bg-danger mb-2">Movies</span>
-    <div class="section-head d-flex justify-content-between align-items-center">
+                    <div class="collage gen"><img src="../images2/im-0.png" alt=""><img src="../images2/im-1.png" alt=""><img
+                            src="../images2/im-2.png" alt=""><img src="../images2/im-3.png" alt=""></div>
+                    <div class="card-foot"><span>Action</span><span>→</span></div>
+                </a>
+                <a href="../code/shows.html" class="card">
+                    <div class="collage gen"><img src="../images2/im-4.png" alt=""><img src="../images2/im-5.png" alt=""><img
+                            src="../images2/im-6.png" alt=""><img src="../images2/im-7.png" alt=""></div>
+                    <div class="card-foot"><span>Adventure</span><span>→</span></div>
+                </a>
+                <div class="card">
+                    <div class="collage gen"><img src="../images2/im-8.png" alt=""><img src="../images2/im-9.png" alt=""><img
+                            src="../images2/im-10.png" alt=""><img src="../images2/im-11.png" alt=""></div>
+                    <div class="card-foot"><span>Comedy</span><span>→</span></div>
+                </div>
+                <div class="card">
+                    <div class="collage gen"><img src="../images2/im-12.png" alt=""><img src="../images2/im-13.png" alt=""><img
+                            src="../images2/im-14.png" alt=""><img src="../images2/im-15.png" alt=""></div>
+                    <div class="card-foot"><span>Drama</span><span>→</span></div>
+                </div>
+                <div class="card">
+                    <div class="collage gen"><img src="../images2/im-16.png" alt=""><img src="../images2/im-17.png" alt=""><img
+                            src="../images2/im-18.png" alt=""><img src="../images2/im-19.png" alt=""></div>
+                    <div class="card-foot"><span>Horror</span><span>→</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>Popular Top 10 In Genres</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g4">
+                <div class="card">
+                    <div class="collage top"><img src="../images2/im-20.png" alt=""><img src="../images2/im-21.png" alt=""><img
+                            src="../images2/im-22.png" alt=""><img src="../images2/im-23.png" alt=""></div>
+                    <div class="card-foot">
+                        <div><span class="badge">Top 10 In</span><br>Action</div><span>→</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="collage top"><img src="../images2/im-24.png" alt=""><img src="../images2/im-25.png" alt=""><img
+                            src="../images2/im-26.png" alt=""><img src="../images2/im-27.png" alt=""></div>
+                    <div class="card-foot">
+                        <div><span class="badge">Top 10 In</span><br>Adventure</div><span>→</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="collage top"><img src="../images2/im-28.png" alt=""><img src="../images2/im-29.png" alt=""><img
+                            src="../images2/im-30.png" alt=""><img src="../images2/im-31.png" alt=""></div>
+                    <div class="card-foot">
+                        <div><span class="badge">Top 10 In</span><br>Comedy</div><span>→</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="collage top"><img src="../images2/im-32.png" alt=""><img src="../images2/im-33.png" alt=""><img
+                            src="../images2/im-34.png" alt=""><img src="../images2/im-35.png" alt=""></div>
+                    <div class="card-foot">
+                        <div><span class="badge">Top 10 In</span><br>Drama</div><span>→</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>Trending Now</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g5">
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-36.png" alt="Morbius"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span>◉ 2K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-37.png" alt="Bhaijaan"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span>◉ 2K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-38.png" alt="Suraj Pe Mangal Bhari"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span>◉ 2K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-39.png" alt="Pathaan"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span>◉ 2K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-40.png" alt="Ant-Man"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span>◉ 2K</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>New Releases</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g5">
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-41.png" alt="Adipurush"></div>
+                    <div class="release">Released at 14 April 2023</div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-42.png" alt="Gun Shot"></div>
+                    <div class="release">Released at 14 April 2023</div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-43.png" alt="Sin City"></div>
+                    <div class="release">Released at 14 April 2023</div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-44.png" alt="Tomorrow War"></div>
+                    <div class="release">Released at 14 April 2023</div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-45.png" alt="Misfire"></div>
+                    <div class="release">Released at 14 April 2023</div>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>Must - Watch Movies</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g4">
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-46.png" alt="Kantara"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span class="stars">★★★★★ 20K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-47.png" alt="Pushpa"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span class="stars">★★★★★ 20K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-48.png" alt="Blade Runner 2049"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span class="stars">★★★★★ 20K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-49.png" alt="Adipurush"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span class="stars">★★★★★ 20K</span></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main class="container"><span class="tag">Shows</span>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>Our Genres</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g5">
+                <div class="card">
+                    <div class="collage gen"><img src="../images2/im-50.png" alt=""><img src="../images2/im-51.png" alt=""><img
+                            src="../images2/im-52.png" alt=""><img src="../images2/im-53.png" alt=""></div>
+                    <div class="card-foot"><span>Action</span><span>→</span></div>
+                </div>
+                <div class="card">
+                    <div class="collage gen"><img src="../images2/im-54.png" alt=""><img src="../images2/im-55.png" alt=""><img
+                            src="../images2/im-56.png" alt=""><img src="../images2/im-57.png" alt=""></div>
+                    <div class="card-foot"><span>Adventure</span><span>→</span></div>
+                </div>
+                <div class="card">
+                    <div class="collage gen"><img src="../images2/im-58.png" alt=""><img src="../images2/im-59.png" alt=""><img
+                            src="../images2/im-60.png" alt=""><img src="../images2/im-61.png" alt=""></div>
+                    <div class="card-foot"><span>Comedy</span><span>→</span></div>
+                </div>
+                <div class="card">
+                    <div class="collage gen"><img src="../images2/im-62.png" alt=""><img src="../images2/im-63.png" alt=""><img
+                            src="../images2/im-64.png" alt=""><img src="../images2/im-65.png" alt=""></div>
+                    <div class="card-foot"><span>Drama</span><span>→</span></div>
+                </div>
+                <div class="card">
+                    <div class="collage gen"><img src="../images2/im-66.png" alt=""><img src="../images2/im-67.png" alt=""><img
+                            src="../images2/im-68.png" alt=""><img src="../images2/im-69.png" alt=""></div>
+                    <div class="card-foot"><span>Horror</span><span>→</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>Popular Top 10 In Genres</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g4">
+                <div class="card">
+                    <div class="collage top"><img src="../images2/im-20.png" alt=""><img src="../images2/im-21.png" alt=""><img
+                            src="../images2/im-22.png" alt=""><img src="../images2/im-23.png" alt=""></div>
+                    <div class="card-foot">
+                        <div><span class="badge">Top 10 In</span><br>Action</div><span>→</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="collage top"><img src="../images2/im-24.png" alt=""><img src="../images2/im-25.png" alt=""><img
+                            src="../images2/im-26.png" alt=""><img src="../images2/im-27.png" alt=""></div>
+                    <div class="card-foot">
+                        <div><span class="badge">Top 10 In</span><br>Adventure</div><span>→</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="collage top"><img src="../images2/im-28.png" alt=""><img src="../images2/im-29.png" alt=""><img
+                            src="../images2/im-30.png" alt=""><img src="../images2/im-31.png" alt=""></div>
+                    <div class="card-foot">
+                        <div><span class="badge">Top 10 In</span><br>Comedy</div><span>→</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="collage top"><img src="../images2/im-32.png" alt=""><img src="../images2/im-33.png" alt=""><img
+                            src="../images2/im-34.png" alt=""><img src="../images2/im-35.png" alt=""></div>
+                    <div class="card-foot">
+                        <div><span class="badge">Top 10 In</span><br>Drama</div><span>→</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>Trending Shows Now</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g4s">
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-86.png" alt="Stranger Things"></div>
+                    <div class="meta"><span>◷ 8h 20min</span><span>▤ 4 Season</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-87.png" alt="Money Heist"></div>
+                    <div class="meta"><span>◷ 8h 20min</span><span>▤ 4 Season</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-88.png" alt="Lucifer"></div>
+                    <div class="meta"><span>◷ 8h 20min</span><span>▤ 4 Season</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-89.png" alt="The Gray Man"></div>
+                    <div class="meta"><span>◷ 8h 20min</span><span>▤ 4 Season</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>New Released Shows</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g4s">
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-90.png" alt="High Town"></div>
+                    <div class="meta"><span>◷ 8h 20min</span><span>▤ 4 Season</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-91.png" alt="Mirzapur"></div>
+                    <div class="meta"><span>◷ 8h 20min</span><span>▤ 4 Season</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-92.png" alt="Breathe Into the Shadows"></div>
+                    <div class="meta"><span>◷ 8h 20min</span><span>▤ 4 Season</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-93.png" alt="Peaky Blinders"></div>
+                    <div class="meta"><span>◷ 8h 20min</span><span>▤ 4 Season</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="sec-head">
+                <h2>Must - Watch Shows</h2>
+                <div class="ctrl"><span>←</span>
+                    <div class="dots"><i></i><i class="on"></i><i></i><i></i></div><span>→</span>
+                </div>
+            </div>
+            <div class="grid g4">
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-94.png" alt="Duranga"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span class="stars">★★★★★ 20K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-95.png" alt="Money Heist"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span class="stars">★★★★★ 20K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-96.png" alt="Mai"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span class="stars">★★★★★ 20K</span></div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="../images2/im-97.png" alt="Stranger Things"></div>
+                    <div class="meta"><span>◷ 1h 30min</span><span class="stars">★★★★★ 20K</span></div>
+                </div>
+            </div>
+        </section>
+    </main>
   
-  <div>
-    <h2></h2>
-   
-  </div>
-
-</div>
-  <div class="d-flex justify-content-between align-items-center mb-5 flex-wrap gap-3"></div>
-
-<div class="section-head">
-    <div>
-        <h2>Our Genres</h2>
-        <p>Explore our diverse collection of movie genres to find your perfect entertainment</p>
-    </div>
-</div>
-
-<div class="cards-row movies-genres genre-grid">
-
-  
-    <a href="../code/movies&showes.html" target="_blank">
-        <article class="card square-card">
-            <img class="poster" src="../images/action.png" alt="Action">
-            <div class="card-body">
-                <h4 class="card-title">Action</h4>
-            </div>
-        </article>
-    </a>
-
-    <a href="../code/shows.html" target="_blank">
-    <article class="card square-card">
-        <img class="poster" src="../images/adventure.png" alt="Adventure">
-        <div class="card-body">
-            <h4 class="card-title">Adventure</h4>
-        </div>
-    </article>
-    </a>
-
-
-    <article class="card square-card">
-        <img class="poster" src="../images/comedy.png" alt="Comedy">
-        <div class="card-body">
-            <h4 class="card-title">Comedy</h4>
-        </div>
-    </article>
-
-    <article class="card square-card">
-        <img class="poster" src="../images/drama.png" alt="Drama">
-        <div class="card-body">
-            <h4 class="card-title">Drama</h4>
-        </div>
-    </article>
-
-    <article class="card square-card">
-        <img class="poster" src="../images/horror.png" alt="Horror">
-        <div class="card-body">
-            <h4 class="card-title">Horror</h4>
-        </div>
-    </article>
-
-</div>
-        <section>
-            <div class="section-head">
-                <div>
-                    <h2>Popular Top 10 In Genres</h2>
-                    <p>Discover the most-watched movies across all genres this month</p>
-                </div>
-            </div>
-            <div class="cards-row movies-top10 genre-grid">
-                <article class="card square-card"><img class="poster" src="../images/action2.png" alt="1">
-                    <div class="card-body">
-                        <h4 class="card-title">Action</h4><span class="tag">Top 10 in</span>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/adventure.png" alt="2">
-                    <div class="card-body">
-                        <h4 class="card-title">Adventure</h4><span class="tag">TOP10IN</span>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/comedy2.png" alt="3">
-                    <div class="card-body">
-                        <h4 class="card-title">Comedy</h4><span class="tag">Top 10 in</span>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/drama2.png" alt="4">
-                    <div class="card-body">
-                        <h4 class="card-title">Drama</h4><span class="tag">top10in</span>
-                    </div>
-                </article>
-               
-            </div>
-        </section>
-
-        <section>
-            <div class="section-head">
-                <div>
-                    <h2>Trending Now</h2>
-                    <p>Stay updated with the hottest movies that everyone is talking about</p>
-                </div>
-            </div>
-            <div class="cards-row movies-trending genre-grid">
-                <article class="card">
-                    <img class="poster" src="../images/t1.png" alt="Trending 1">
-                    <div class="card-body trending-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 2.1h</span>
-                        <span class="views">8.2k</span>
-                    </div>
-                </article>
-                <article class="card">
-                    <img class="poster" src="../images/t2.png" alt="Trending 2">
-                    <div class="card-body trending-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 1.8h</span>
-                        <span class="views">6.5k</span>
-                    </div>
-                </article>
-                <article class="card">
-                    <img class="poster" src="../images/t3.png" alt="Trending 3">
-                    <div class="card-body trending-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 2.5h</span>
-                        <span class="views">9.1k</span>
-                    </div>
-                </article>
-                <article class="card">
-                    <img class="poster" src="../images/t4.png" alt="Trending 4">
-                    <div class="card-body trending-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 1.9h</span>
-                        <span class="views">7.3k</span>
-                    </div>
-                </article>
-                <article class="card">
-                    <img class="poster" src="../images/t5.png" alt="Trending 5">
-                    <div class="card-body trending-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 2.8h</span>
-                        <span class="views">5.8k</span>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-head">
-                <div>
-                    <h2>New Releases</h2>
-                    <p>Be the first to watch the latest movies hitting the screens this year</p>
-                </div>
-            </div>
-            <div class="cards-row movies-releases genre-grid">
-                <article class="card square-card">
-                    <img class="poster" src="../images/r1.png" alt="New 1">
-                    <div class="card-body release-info">
-                        <span class="release-date">Jan 2026</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/r2.png" alt="New 2">
-                    <div class="card-body release-info">
-                        <span class="release-date">Feb 2026</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/r3.png" alt="New 3">
-                    <div class="card-body release-info">
-                        <span class="release-date">Mar 2026</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/r4.png" alt="New 4">
-                    <div class="card-body release-info">
-                        <span class="release-date">Apr 2026</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/r5.png" alt="New 5">
-                    <div class="card-body release-info">
-                        <span class="release-date">May 2026</span>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-head">
-                <div>
-                    <h2>Must-Watch Movies</h2>
-                    <p>Experience the best films that have captivated audiences worldwide</p>
-                </div>
-            </div>
-            <div class="cards-row movies-mustwatch genre-grid">
-                <article class="card square-card">
-                    <img class="poster" src="../images/m1.png" alt="Must 1">
-                    <div class="card-body mustwatch-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 2.3h</span>
-                        <span class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </span>
-                        <span class="views">7.6k</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/m2.png" alt="Must 2">
-                    <div class="card-body mustwatch-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 1.9h</span>
-                        <span class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </span>
-                        <span class="views">4.2k</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/m4.png" alt="Must 3">
-                    <div class="card-body mustwatch-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 2.7h</span>
-                        <span class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </span>
-                        <span class="views">8.9k</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/m5.png" alt="Must 4">
-                    <div class="card-body mustwatch-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 2.1h</span>
-                        <span class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </span>
-                        <span class="views">6.3k</span>
-                    </div>
-                </article>
-            </div>
-        </section>
-
- <span class="badge bg-danger mb-2">Shows</span>
-        <div class="d-flex justify-content-between align-items-center mb-5 flex-wrap gap-3"></div>
-
-            <div class="section-head">
-                <div>
-                    <h2>Our Genres</h2>
-                    
-                </div>
-            </div>
-            <div class="cards-row movies-genres genre-grid">
-                <article class="card square-card"><img class="poster" src="../images/action.png" alt="Action">
-                    <div class="card-body">
-                        <h4 class="card-title">Action</h4>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/adventure.png" alt="Adventure">
-                    <div class="card-body">
-                        <h4 class="card-title">Adventure</h4>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/comedy.png" alt="Comedy">
-                    <div class="card-body">
-                        <h4 class="card-title">Comedy</h4>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/drama.png" alt="Drama">
-                    <div class="card-body">
-                        <h4 class="card-title">Drama</h4>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/horror.png" alt="Horror">
-                    <div class="card-body">
-                        <h4 class="card-title">Horror</h4>
-                    </div>
-                </article>
-            </div>
-        </section>
-          <section>
-            <div class="section-head">
-                <div>
-                    <h2>Popular Top 10 In Genres</h2>
-                     
-                </div>
-            </div>
-            <div class="cards-row movies-top10 genre-grid">
-                <article class="card square-card"><img class="poster" src="../images/action shows.png" alt="1">
-                    <div class="card-body">
-                        <h4 class="card-title">Action</h4><span class="tag">Top 10 in</span>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/adventure.png" alt="2">
-                    <div class="card-body">
-                        <h4 class="card-title">Adventure</h4><span class="tag">TOP10IN</span>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/drama2.png" alt="3">
-                    <div class="card-body">
-                        <h4 class="card-title">Comedy</h4><span class="tag">Top 10 in</span>
-                    </div>
-                </article>
-                <article class="card square-card"><img class="poster" src="../images/comedy2.png" alt="4">
-                    <div class="card-body">
-                        <h4 class="card-title">Drama</h4>
-                        <span class="tag">top10in</span>
-                    </div>
-                </article>
-
-               
-            </div>
-        </section>
-           <section>
-            <div class="section-head">
-                <div>
-                    <h2>Trending shows Now</h2>
-                   
-                </div>
-            </div>
-            <div class="cards-row movies-trending genre-grid">
-                <article class="card">
-                    <img class="poster" src="../images/Tshn.png" alt="Trending 1">
-                    <div class="card-body trending-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i>8h 20min</span>
-                        <span class="views">4 Season</span>
-                        
-                        
-                    </div>
-                </article>
-                <article class="card">
-                    <img class="poster" src="../images/Tshn2.png" alt="Trending 2">
-                    <div class="card-body trending-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i>12h 23min</span>
-                        <span class="views">5 Season</span>
-                       
-                    </div>
-                </article>
-                <article class="card">
-                    <img class="poster" src="../images/Tshn3.png" alt="Trending 3">
-                    <div class="card-body trending-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 14h 30min</span>
-                        <span class="views">3 Season</span>
-                    </div>
-                </article>
-                <article class="card">
-                    <img class="poster" src="../images/Tshn4.png" alt="Trending 4">
-                    <div class="card-body trending-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i>7h 40min</span>
-                        <span class="views">2 Season</span>
-                    </div>
-                </article>
-               
-            </div>
-        </section>
-  <h2>New Released Shows</h2>
-                     
-                </div>
-            </div>
-            <div class="cards-row movies-releases genre-grid">
-                <article class="card square-card">
-                    <img class="poster" src="../images/nrs.png" alt="New 1">
-                    <div class="card-body release-info">
-                       <span class="duration"><i class="fa-regular fa-clock"></i>12h 23min</span>
-                        <span class="views">5 Season</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/nrs2.png" alt="New 2">
-                    <div class="card-body release-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i>7h 40min</span>
-                        <span class="views">2 Season</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/nrs3.png" alt="New 3">
-                    <div class="card-body release-info">
-                       <span class="duration"><i class="fa-regular fa-clock"></i>8h 20min</span>
-                        <span class="views">4 Season</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/nrs4.png" alt="New 4">
-                    <div class="card-body release-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i>10h 30min</span>
-                        <span class="views">3 Season</span>
-                    </div>
-                </article>
-
-                 
-                     
-               
-            </div>
-        </section>
-
-
-          <section>
-            <div class="section-head">
-                <div>
-                    <h2>Must-Watch Movies</h2>
-                    <p>Experience the best films that have captivated audiences worldwide</p>
-                </div>
-            </div>
-            <div class="cards-row movies-mustwatch genre-grid">
-                <article class="card square-card">
-                    <img class="poster" src="../images/mws.jpg" alt="Must 1">
-                    <div class="card-body mustwatch-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 2.3h</span>
-                        <span class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </span>
-                        <span class="views">7.6k</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/mws2.png" alt="Must 2">
-                    <div class="card-body mustwatch-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 1.9h</span>
-                        <span class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </span>
-                        <span class="views">4.2k</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/mws3.png" alt="Must 3">
-                    <div class="card-body mustwatch-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 2.7h</span>
-                        <span class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </span>
-                        <span class="views">8.9k</span>
-                    </div>
-                </article>
-                <article class="card square-card">
-                    <img class="poster" src="../images/m5.png" alt="Must 4">
-                    <div class="card-body mustwatch-info">
-                        <span class="duration"><i class="fa-regular fa-clock"></i> 2.1h</span>
-                        <span class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </span>
-                        <span class="views">6.3k</span>
-                    </div>
-                </article>
-            </div>
-        </section>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</section>
 <section class="cta container my-5">
     <div class="cta-box">
 
@@ -584,87 +384,83 @@
 
     </div>
 </section>
- 
 
-   
-<footer class="footer container py-5">
 
-    <div class="row">
+<footer class="footer">
+    <div class="footer-container">
 
-        <div class="col-md-2">
-            <h5>Home</h5>
-            <ul>
-                <li>Categories</li>
-                <li>Devices</li>
-                <li>Pricing</li>
-                <li>FAQ</li>
-            </ul>
+        <div class="footer-columns">
+
+            <div class="footer-column">
+                <h5>Home</h5>
+                <ul>
+                    <li>Categories</li>
+                    <li>Devices</li>
+                    <li>Pricing</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h5>Movies</h5>
+                <ul>
+                    <li>Genres</li>
+                    <li>Trending</li>
+                    <li>New Release</li>
+                    <li>Popular</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h5>Shows</h5>
+                <ul>
+                    <li>Genres</li>
+                    <li>Trending</li>
+                    <li>New Release</li>
+                    <li>Popular</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h5>Support</h5>
+                <ul>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h5>Subscription</h5>
+                <ul>
+                    <li>Plans</li>
+                    <li>Features</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h5>Connect With Us</h5>
+                <div class="social">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
         </div>
 
-        <div class="col-md-2">
-            <h5>Movies</h5>
-            <ul>
-                <li>Genres</li>
-                <li>Trending</li>
-                <li>New Release</li>
-                <li>Popular</li>
-            </ul>
-        </div>
+        <div class="footer-bottom">
+            <p>©2025 streamvibe. All Rights Reserved</p>
 
-        <div class="col-md-2">
-            <h5>Shows</h5>
-            <ul>
-                <li>Genres</li>
-                <li>Trending</li>
-                <li>New Release</li>
-                <li>Popular</li>
-            </ul>
-        </div>
-
-        <div class="col-md-2">
-            <h5>Support</h5>
-            <ul>
-                <li>Contact Us</li>
-            </ul>
-        </div>
-
-        <div class="col-md-2">
-            <h5>Subscription</h5>
-            <ul>
-                <li>Plans</li>
-                <li>Features</li>
-            </ul>
-        </div>
-
-        <div class="col-md-2">
-            <h5>Connect With Us</h5>
-
-           <div class="social">
-  <a href="#"><i class="bi bi-facebook"></i></a>
-  <a href="#"><i class="bi bi-twitter"></i></a>
-  <a href="#"><i class="bi bi-linkedin"></i></a>
-</div>
+            <div class="footer-links">
+                <span>Terms of Use</span>
+                <span>Privacy Policy</span>
+                <span>Cookie Policy</span>
+            </div>
         </div>
 
     </div>
-
-    
-    <div class="footer-bottom d-flex justify-content-between mt-5 flex-wrap">
-        <p>©2025 streamvibe. All Rights Reserved</p>
-
-        <div>
-            <span>Terms of Use</span>
-            <span>Privacy Policy</span>
-            <span>Cookie Policy</span>
-        </div>
-    </div>
-
 </footer>
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-        
 </body>
+
 </html>

@@ -394,8 +394,8 @@ body {
 }
 
 .cta-btn {
-    background: linear-gradient(45deg, #E50000 );
-    background: linear-gradient(45deg, #E50000 );
+    background: linear-gradient(45deg, #E50000,#ff0000 );
+
     border: none;
     padding: 12px 20px;
     border-radius: 8px;
