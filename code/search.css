@@ -1,0 +1,119 @@
+
+.search-popup {
+    position: fixed;
+    z-index: 100000;
+    top: 88px;
+    right: max(24px, calc((100vw - 1200px) / 2));
+    width: 370px;
+    max-width: calc(100vw - 28px);
+    padding: 14px;
+    background: #1a1a1a;
+    border: 1px solid #353535;
+    border-radius: 13px;
+    box-shadow: 0 16px 45px rgba(0,0,0,.55);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-9px);
+    transition: opacity .2s ease, transform .2s ease, visibility .2s ease;
+}
+.search-popup.open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px;
+    background: #101010;
+    border: 1px solid #393939;
+    border-radius: 9px;
+    color: #aaa;
+}
+.search-box > .bi-search { flex: 0 0 auto; }
+.search-box input {
+    min-width: 0;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #fff;
+    font: inherit;
+    font-size: 14px;
+}
+.search-box input::placeholder { color: #777; }
+.search-close {
+    border: 0;
+    background: transparent;
+    color: #aaa;
+    font-size: 25px;
+    line-height: 1;
+    cursor: pointer;
+}
+.search-close:hover { color: #fff; }
+.search-results {
+    max-height: min(390px, 65vh);
+    overflow-y: auto;
+    margin-top: 10px;
+}
+.search-hint, .search-empty {
+    margin: 0;
+    padding: 16px 6px;
+    color: #999;
+    font-size: 13px;
+    text-align: center;
+}
+.search-result {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    text-align: left;
+    cursor: pointer;
+    transition: background .18s ease;
+}
+.search-result:hover, .search-result:focus-visible {
+    background: #303030;
+    outline: none;
+}
+.search-result img {
+    display: block;
+    flex: 0 0 46px;
+    width: 46px;
+    height: 62px;
+    object-fit: cover;
+    border-radius: 5px;
+    background: #292929;
+}
+.search-result-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 0;
+}
+.search-result-info strong {
+    color: #f4f4f4;
+    font-size: 13px;
+    font-weight: 600;
+}
+.search-result-info small {
+    color: #aaa;
+    font-size: 11px;
+}
+.nav-icons .bi-search, .icons .bi-search, .navbar .bi-search {
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .search-popup {
+        top: 76px;
+        right: 14px;
+        width: calc(100vw - 28px);
+    }
+}

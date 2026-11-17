@@ -15,6 +15,8 @@
 
 
   
+    <link rel="stylesheet" href="../code/search.css">
+    <link rel="stylesheet" href="../code/features.css">
 </head>
 
 <body>
@@ -44,6 +46,17 @@
       <i class="bi bi-search"></i>
       <i class="bi bi-bell"></i>
     </div>
+
+        <div class="search-popup" id="searchPopup" aria-hidden="true">
+            <div class="search-box">
+                <i class="bi bi-search"></i>
+                <input type="search" id="movieSearchInput" placeholder="Search movies & shows..." autocomplete="off">
+                <button type="button" class="search-close" id="closeSearch" aria-label="Close search">&times;</button>
+            </div>
+            <div class="search-results" id="searchResults">
+                <p class="search-hint">Start typing to search...</p>
+            </div>
+        </div>
 
   </div>
 </nav>
@@ -322,6 +335,9 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
+<script src="../code/search.js"></script>
+<script src="../code/features.js"></script>
+<script src="../code/interactions.js"></script>
 </body>
 </html>
 
